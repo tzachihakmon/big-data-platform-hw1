@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS University_World_Rankings (
     shanghai_rank INT,
     shanghai_total_score FLOAT, // used to determine rank
     cwur_rank INT,
+    cwur_score FLOAT,
     times_rank INT,
     times_total_score FLOAT, // used to determine rank
     PRIMARY KEY(year, country, university_name)
